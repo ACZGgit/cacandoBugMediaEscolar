@@ -50,3 +50,35 @@ esperado é:
     Diego: média 7.00 - Aprovado
 
 Mas o script está mostrando valores diferentes.
+
+## Seu desafio
+
+Existem **pelo menos 3 bugs** escondidos no `Boletim.groovy`.
+Seu objetivo é encontrar e corrigir todos, com a ajuda de um agente de IA,
+até que a saída do script fique **idêntica** ao resultado esperado acima.
+
+Os bugs se escondem uns atrás dos outros: corrigir um deles pode fazer
+aparecer um problema que antes não dava para ver. Por isso, não pare no
+primeiro acerto.
+
+### Dicas para caçar os bugs
+
+- **Rode o script depois de cada correção** e compare a saída, linha por
+  linha, com o resultado esperado. Se ainda houver diferença, ainda há bug.
+- **Um código sem erros não é um código correto.** O programa pode rodar
+  sem nenhuma mensagem de erro e ainda assim seguir uma regra diferente da
+  que a escola definiu.
+- **Dê contexto para a IA.** Ela só sabe o que você mostra a ela. Compare
+  as respostas quando você envia apenas o código e quando envia também as
+  regras da escola e o resultado esperado descritos neste README.
+- **Preste atenção nos casos de fronteira.** Pense no que deveria acontecer
+  com um aluno que tira exatamente a nota de corte.
+- **Entenda antes de aceitar.** Peça para a IA explicar por que cada linha
+  estava errada. Se a explicação não fizer sentido para você, pergunte de
+  novo.
+
+### Checklist
+
+- [ ] A média de todos os alunos está igual à esperada
+- [ ] A situação de todos os alunos está igual à esperada
+- [ ] Consigo explicar, com minhas palavras, cada bug que corrigi
